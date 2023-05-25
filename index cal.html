@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/style_cal.css">
+    </head>
+    <body>
+		<h1>Quick Cal</h1>
+		<div class="container">
+			
+			<formhhh action="">
+				<div class="value1">
+				<label>First Value</label>
+				<input type="number" name="number" id="first_value" required>
+				<br>
+			</div>
+			<br>
+			<br>
+			<div class="value2">
+				<label>Second Value</label>
+				<input type="number" name="number" id="second_value" required >
+			</div>
+			<br>
+			<br>
+			<div class="selector">
+				<label>SELECTOR</label>
+				<select id="selector" required>
+					<option value="Add">Add</option>
+					<option value="Subtract">Subtract</option>
+					<option value="Divide">Divide</option>
+					<option value="Multiply">Multiply</option>
+				</select>
+			</div>
+			<br>
+			<br>
+			<div class="submit">
+				<button type="submit" name="submit" value="submit" onclick="calculate()">Submit</button>
+			</div>
+			<br>
+			<br>
+			<div class="result">
+				<label>Answer = <span id="result"></span></label>
+				
+			</div>
+			</form>
+		
+			
+			
+			
+
+		</div>
+		<script src="cal.js"></script>
+	</body>
+</html>
