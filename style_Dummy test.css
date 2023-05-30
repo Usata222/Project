@@ -1,0 +1,107 @@
+body{
+    background-color: white;
+    
+}
+
+#head .logo{
+    border: 1px red solid;
+    margin-right: 1120px;
+    margin-left: 30px;
+    margin-bottom: 150px;
+    padding-bottom: 130px;
+    background-image: url('../images/download.jpg');
+}
+
+
+.top ul{
+    display: flex;
+    list-style: none;
+    padding-left: 800px;
+    margin-top: 100px;
+}
+
+.top ul li{
+    padding-right: 30px;
+}
+
+
+
+
+.grid{
+    margin-left: 70px;
+    margin-right: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-gap: 3em;
+    grid-auto-rows: minmax(230px, auto );
+    /* rows will be 100px at first but will expand*/  
+    padding: 4px;
+    margin-right: 40px;
+}
+
+.grid h1{
+    border: 1px solid white;
+    background-color: burlywood;
+    margin-right: 190px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding-left: 20px;
+
+}
+
+.gridd h1{
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+
+
+
+}
+
+
+.ran{
+    background-image: url('../images/Untitled-5.jpg');
+    border-radius: 50px;
+    
+}
+
+.gan{
+    background-image: url('../images/Untitled-3.jpg');
+    border-radius: 50px; 
+}
+
+.ban{
+    background-image: url('../images/Untitled-4.jpg');
+    border-radius: 50px;
+}
+
+
+
+
+.gridd{
+    margin-left: 70px;
+    margin-right: 80px;
+     display: grid;
+     grid-template-columns: 8fr 8fr 8fr;
+     /*grid-template-columns: repeat(3, 1fr);*/
+     grid-gap: 3em;
+     grid-auto-rows: minmax(230px, auto );
+     /* rows will be 100px at first but will expand*/  
+     padding: 4px;
+     margin-right: 40px;
+ }
+
+ 
+
+#final{
+    border: 2px grey solid ;
+    padding: 30px;
+    background-color: grey;
+
+}
